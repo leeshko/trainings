@@ -1,0 +1,16 @@
+.table {
+  background-color: rgb(201, 197, 197);
+}
+
+.tableItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tableItem > div {
+  width: 30%;
+}
+
+.tableItem>div:first-child {
+  width: 2rem;
+}
